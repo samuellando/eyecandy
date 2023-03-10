@@ -1,0 +1,38 @@
+<script lang="ts">
+  import { spring } from "svelte/motion";
+</script>
+
+<div id="container">
+  <div id="home">
+    <div id="homeimg" />
+  </div>
+  <div id="away">
+    <div id="awayimg" />
+  </div>
+</div>
+
+<style>
+  #container {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #home {
+    background-color: red;
+    width: 100vw;
+    height: 50vh;
+  }
+  #away {
+    background-color: green;
+    width: 100vw;
+    height: 50vh;
+  }
+  #homeimg {
+    position: absolute;
+    top: 45vh;
+    left: 50vw;
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+  }
+</style>
