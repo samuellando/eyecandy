@@ -1,3 +1,5 @@
+Some fun visual effects
+
 ## Explosive-links
 ![Explosive-links](assets/explosive-links.gif)
 
